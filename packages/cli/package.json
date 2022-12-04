@@ -1,6 +1,6 @@
 {
   "name": "@rurals/cli",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "author": "haozengrun <haozengrun_v@didiglobal.com>",
   "homepage": "",
@@ -18,7 +18,7 @@
   },
   "gitHead": "f0adc2d78609450eeb1d79c2286bf7fc62484c21",
   "dependencies": {
-    "@rurals/utils": "^0.0.12",
+    "@rurals/utils": "^0.0.13",
     "@types/node": "^18.11.10",
     "chalk": "^5.1.2"
   }
