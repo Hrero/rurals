@@ -23,7 +23,8 @@
     "dayjs": "^1.11.6",
     "glob": "^8.0.3",
     "inquirer": "^9.1.4",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "request-promise-native": "^1.0.9"
   },
   "gitHead": "f0adc2d78609450eeb1d79c2286bf7fc62484c21"
 }
