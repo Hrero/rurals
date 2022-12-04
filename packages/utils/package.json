@@ -17,7 +17,12 @@
     "test": "node ./__tests__/utils.test.js"
   },
   "dependencies": {
+    "@types/node": "^18.11.10",
     "chalk": "^5.1.2",
+    "cosmiconfig": "^8.0.0",
+    "dayjs": "^1.11.6",
+    "glob": "^8.0.3",
+    "inquirer": "^9.1.4",
     "lodash": "^4.17.21"
   },
   "gitHead": "9dad96c66cb93c98c735ef7627f205aeef34022a"

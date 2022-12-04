@@ -1,0 +1,15 @@
+{
+  "compileOnSave": false,
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types/", "../../node_modules/@types/", "./src/types/"],
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "outDir": "dist",
+    "rootDir": "src",
+  },
+  "include": [ "src/**/*" ],
+  "exclude": ["src/code/pages", "src/__test__"]
+}
