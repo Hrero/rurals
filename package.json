@@ -21,6 +21,11 @@
       "message": "chore(release): publish"
     }
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "ignoreChanges": [
     "**/*.md"
   ],
@@ -30,14 +35,21 @@
     }
   },
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "build": "lerna run build --include-dependencies --stream",
+    "c": "git-cz",
     "git": "git add . && git commit -m '-' && git push origin master"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "commitizen": "^4.2.5",
+    "cz-lerna-changelog": "^2.0.3",
+    "husky": "^8.0.2",
     "lerna": "^6.1.0"
   }
 }
