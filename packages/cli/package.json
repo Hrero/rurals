@@ -1,0 +1,24 @@
+{
+  "name": "@rurals/cli",
+  "version": "0.0.10",
+  "description": "> TODO: description",
+  "author": "haozengrun <haozengrun_v@didiglobal.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  },
+  "gitHead": "9dad96c66cb93c98c735ef7627f205aeef34022a",
+  "dependencies": {
+    "@rurals/utils": "^0.0.10",
+    "chalk": "^5.1.2"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "publish": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "ignoreChanges": [
+        "*.md"
+      ],
+      "message": "chore(release): publish"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    }
+  },
+  "ignoreChanges": [
+    "**/*.md"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "clean": "lerna clean",
+    "build": "lerna run build --include-dependencies --stream",
+    "git": "git add . && git commit -m '-' && git push origin master"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  }
+}
