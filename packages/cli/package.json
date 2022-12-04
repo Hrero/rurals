@@ -16,7 +16,7 @@
   "scripts": {
     "test": "node ./__tests__/cli.test.js"
   },
-  "gitHead": "f0adc2d78609450eeb1d79c2286bf7fc62484c21",
+  "gitHead": "96dd559553080b574fd46a2459f3c006792f90ad",
   "dependencies": {
     "@rurals/utils": "^0.0.13",
     "@types/node": "^18.11.10",
